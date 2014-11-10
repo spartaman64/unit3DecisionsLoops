@@ -85,7 +85,14 @@ public class GameOfLifeTest
     public void testFinalState()
     {
         /* verify that the actual pattern matches the expected pattern after 3 generations         *  
-         */
+         *
+         * 0 1 2 3 4
+         *0- - - - -
+         *1- - - - -
+         *2- - - - -
+         *3- - - - -
+         *4- - - - -
+         **/
         
         // ...
     }

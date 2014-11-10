@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+public class CompareAdjacent
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a series of numbers (Press q to exit)");
+        double prevValue;
+        double currentValue = in.nextDouble();
+        final double EPSILON = 1E-7;
+        while(in.hasNextDouble())
+        {
+          prevValue = currentValue;
+          currentValue = in.nextDouble();
+          
+          if(Math.abs(currentValue - prevValue) < EPSILON)
+          {
+              System.out.println("Duplicate numbers");
+            }
+        }
+    }
+
+}
+
