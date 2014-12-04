@@ -26,6 +26,7 @@ public class SumAndAverageValue
         average = total/count;
     }
     System.out.print("Total: "+total+" Average: "+average);
+    System.out.println("bye");
     }
 
 }
