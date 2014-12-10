@@ -1,0 +1,4 @@
+clone: git clone https://github.com/spartaman64/(repository)
+mark: git add .
+commit: git commit -m '(description)'
+push: git push origin master
